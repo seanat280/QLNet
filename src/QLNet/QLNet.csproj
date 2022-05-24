@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <VersionPrefix>1.12.0</VersionPrefix>
-    <TargetFrameworks>netstandard2.1</TargetFrameworks>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <DefineConstants>$(DefineConstants);QL_NEGATIVE_RATES</DefineConstants>
     <AssemblyName>QLNet</AssemblyName>
     <PackageId>QLNet</PackageId>
@@ -12,13 +12,13 @@
     <Description>A free/open-source library for quantitative finance</Description>
     <Copyright>Copyright (c) 2008-2021 Andrea Maggiulli (a.maggiulli@gmail.com)</Copyright>
     <PackageLicenseUrl>https://github.com/amaggiulli/QLNet/blob/develop/LICENSE</PackageLicenseUrl>
-    <PackageProjectUrl>http://github.com/amaggiulli/qlnet</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/amaggiulli/qlnet</PackageProjectUrl>
     <PackageTags>QLNet QuantLib quantitative finance financial</PackageTags>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.Reflection.Emit.Lightweight" Version="4.3.0" />
+    <PackageReference Include="System.Reflection.Emit.Lightweight" Version="4.7.0" />
   </ItemGroup>
 
 </Project>
